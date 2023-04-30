@@ -1,0 +1,342 @@
+html{
+font-family: 'Montserrat', sans-serif;
+width: 100%;
+  height: 100%;
+}
+
+#toggle:hover{
+  background-color: #F0C264;
+  color: antiquewhite;
+}
+
+#theme-button{
+  background: transparent;
+  border: none;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 15px 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.theme-button1{
+  border:none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.dark-mode .theme-button1{
+  color: white;
+  background:transparent;
+  border: none;
+  cursor: pointer;
+}
+.button {
+  border: 1px solid #000000;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+.button:hover{
+  background-color: #ffffff;
+}
+
+.brlarge {
+  display: block;
+  margin-bottom: 10em;
+  background-color: rgb(237, 237, 237);
+}
+
+.navbar ul {
+    list-style: none;
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  display: infline-flex;
+}
+
+
+
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+#pageone{
+  background-image: url('img/light1.png');
+  height: 730px;
+  color: black;
+}
+
+#tripleweb{
+display: block;
+margin-left: auto;
+}
+}
+
+#channels{
+  background-color: rgb(239,239,239);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+  }
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 10px;
+}
+
+.caption{
+text-align: center;
+}
+#readmore:hover{
+  background-color: #7a7a7a;
+}
+#readmore2:hover{
+  background-color: #e0e0e0;
+}
+.dark-mode #videoar{
+  background-color: #545454;
+  color: white;
+}
+#videoar{
+  background-color: #ededed;
+  display: flex;
+  height: 600px;
+  margin-bottom: 50px;
+}
+#vidsect{
+  background-color: rgb(237, 237, 237);
+  height: 600px;
+}
+
+#video{
+  float: right;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  bottom: -150px;
+  right: 50px;
+}
+#pagetwo{
+  background-image: url('img/light2.png');
+  height: 1260px;
+}
+ 
+
+#people{
+  background-color: rgb(239,239,239);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#petition{
+  height: 100%;
+  background: url('img/light3.png');
+  padding-left: 50px;
+  
+}
+.footer{
+  background-color: rgb(237, 237, 237);
+  padding: 10px;
+  padding-top: 150px;
+  height: 300px;
+  position: fixedbox;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+#jones{
+  margin-top: -500px; 
+  border: solid; 
+  border-color:black; 
+  border-width: 2px; 
+  border-radius: 100%;
+  width: 100px; 
+  height: 100px;
+}
+.dark-mode #jones{
+  border-color: white;
+}
+.dark-mode #channels{
+  background-color: #17181A;
+  padding: 10px;
+  color: white;
+}
+.dark-mode .circle{
+    background-color: white;
+  }
+.dark-mode #pageone{
+  background-image: url('img/grad1.png');
+  color: white;
+}
+.dark-mode #vidsect{
+  background-color: #545454;
+}
+.dark-mode #pagetwo{
+  background-image: url('img/grad2.png');
+}
+.dark-mode #petition{
+  background-image: url('img/grad3.png');
+  color: white;
+}
+.dark-mode #people{
+  background-color: #17181A;
+  color: white;
+}
+ .dark-mode .footer{
+   background-color: #545454;
+   color:white;
+   
+ }
+
+.petition-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100;
+  padding-bottom: 50px;
+}
+.petition-para{
+  width: 55%;
+  padding-right: 10px;
+}
+#pract{
+  background: #2222;
+}
+
+.signatures{
+  width: 45%;
+  padding-right: 10px;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+
+
+
+#myBtn {
+  display: none; /* Hide the button by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure the button is on top of other elements */
+  font-size: 10px; /* Increase font size */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #555; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Add some padding */
+  border-radius: 10px; /* Add rounded corners */
+
+}
+
+#myBtn:hover {
+  background-color: black; /* Add a darker background on hover */
+}
+
+.modal-content img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.modal-content img:hover {
+  transform: scale(1.2);
+}
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: #ededed; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#notablepeople, #ytchannels{
+  width: 200px;
+  height: 200px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+#linkedin-button:hover, #email-button:hover, #github-button:hover, #resume-button:hover {
+  color: #c7c7c7;
+  
+}
